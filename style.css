@@ -1,0 +1,121 @@
+body {
+    background: black;
+    color: white;
+    font-family: 'Cinzel Decorative', cursive;
+    border: 8px ridge grey;
+}
+
+.header {
+    background: black;
+    margin: 0;
+}
+
+h1 {
+    font-size: 68px;
+}
+
+.navbar {
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+nav .navbar li a{
+    color: white;
+    }
+
+.social-link {
+    font-size: 30px;
+    color: white;
+}
+
+.chain-video {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 5px solid rgb(147, 8, 8);
+}
+
+a {
+    color: white;
+}
+
+.navbar ul li a:hover {
+    color: rgb(147, 8, 8);
+    border: 1px solid white;
+}
+
+a:link { 
+    text-decoration: none; 
+}
+
+
+a:visited { 
+    text-decoration: none; 
+}
+
+
+a:hover { 
+    text-decoration: none;
+    color: rgb(147, 8, 8);
+
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.newsletter {
+    font-size: small;
+    border:1px solid white;
+    padding: 7px;
+}
+
+.modal-header {
+    color: white;
+    background: black;
+    border: 1px solid white;
+}
+
+.modal-body {
+    color: white;
+    background: black;
+    border-bottom: 1px solid white;
+    border-right: 1px white solid;
+    border-left: 1px solid white;
+}
+
+.aboutMorbid {
+    font-style: italic;
+}
+
+.quote {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.aboutMorbid {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 10px
+}
+
+.featured {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.card {
+    border: 1px solid white;
+}
+
+.card-body {
+    background: black;
+}
+
+.card-title {
+    border-bottom: 1px solid white;
+}
+
+.featured-products {
+    text-decoration: underline;
+}

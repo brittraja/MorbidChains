@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morbid Chains</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/style.css">
+  
+    <script src="https://kit.fontawesome.com/90548e43eb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--Header-->
+<header class="header mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col px-1 text-right">
+                <a href="#subscribeModal" class="newsletter" data-toggle="modal" data-target="#subscribeModal">Subscribe to Newsletter</a>           </a>
+            </div>
+        </div>
+        <div class="row row-content justify-content-center">
+            <div class="col-xs-8 text-center" id="top">
+            <a class="homeBanner" href="#">
+                <h1>Morbid Chains</h1>
+                <p>chainmaille</p>
+            </a>
+            <!--Add Chain Link Here-->
+                <img class="img-fluid" src="/images/chainborder.png" height="75" width="600">
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Newsletter Modal-->
+
+<div id="subscribeModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Subscribe to Newsletter</h3>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form id="subscribeForm">
+                        <div class="form-group row">
+                            <div class="input-group mx-5">
+                                <input type="text" class="form-control" placeholder="Email" aria-label="email" aria-describedby="basic-addon2">
+                                <button type="button" class="btn btn-outline-light">Subscribe</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Navigation-->
+<nav class="navbar navbar-expand-m justify-content-center">
+    <ul class="nav navbar col-md-10 text-center">
+        <li class="navbar-item active">
+            <a class="nav-link" href="#">Home</a></li>
+        <li class="navbar-item">
+            <a class="nav-link" href="#">Shop</a></li>
+        <li class="navbar-item">
+            <a class="nav-link" href="#">Events</a></li>
+        <li class="navbar-item">
+            <a class="nav-link" href="#">Gallery</a></li>
+        <li class="navbar-item">
+            <a href="#"class="checkCart"><i class="fa-solid fa-cart-shopping"></i></a>
+    </ul>
+</nav>
+
+<!--Homepage Video and graphics-->
+<div class="container justify-content-center p-5">
+    <div class="row">
+        <div class="col-md-3 text-center py-5 my-5">
+            <p class="aboutMorbid">Brooklyn based hand crafted armor.</p>
+        </div>
+        <div class="col-md-5 mx-auto">
+        <video autoplay loop width="420" height="300" class="chain-video">
+            <source src="/videos/474802EB-7B17-4C08-9A1D-BABEBFE2D920.mp4" type="video/mp4">Your
+            browser does not support this video.
+        </video>
+        </div>
+        <div class="col-md-3 text-center py-5 my-5">
+            <p class="aboutMorbid">Made to order and custom designs.</p>
+        </div>
+    </div>
+</div>
+
+<!--Featured Items-->
+<div class="row row-content p-3 pb-1">
+    <div class="col text-center">
+        <h3 class="featured-products">Featured Products</h3>
+    </div>
+</div>
+<div class="row row-content justify-content-center">
+<div class="card-deck col-9">
+    <div class="card text-center" style="width: 15rem">
+        <img src="/images/featured1.jpeg" class="card-img-top" alt="Thin Lizzy Cap">
+        <div class="card-body">
+            <h5 class="card-title">Thin Lizzy Cap</h5>
+            <p class="card-text">Handpainted logo w/ accent</p>
+        </div>
+    </div>
+    <div class="card text-center" style="width: 15rem">
+        <img src="/images/featured2.jpeg" class="card-img-top" alt="Bathory Bolo Tie">
+        <div class="card-body">
+            <h5 class="card-title">Bathory Bolo Tie</h5>
+            <p class="card-text">Fixed Bolo-Tie w/ Bathory Pendent & acrylic teeth</p>
+        </div>
+    </div>
+    <div class="card text-center" style="width: 15rem">
+        <img src="/images/featured3.jpeg" class="card-img-top" alt="Thin Lizzy Cap">
+        <div class="card-body">
+            <h5 class="card-title">KISS Cap</h5>
+            <p class="card-text">Handpainted logo w/ accent</p>
+        </div>
+    </div>
+</div>
+</div>
+
+<!--Footer-->
+<footer class="site-footer p-2 pt-5">
+    <div class="container">
+        <div class="row row-content">
+            <div class="col-1">
+                <a href="https://instagram.com/morbidchains" class="social-link"><i class="fa fa-instagram"></i></a>
+            </div>
+            <div class="col-1">
+                <a href="#" class="social-link"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <div class="col-sm-10 text-center pt-1">
+                <p class="quote">“Thus, death begets death; evil begets evil.” - the
+                    Black Cauldron, Lloyd Alexander</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
